@@ -20,6 +20,9 @@ module.exports = {
 		]
 	},
 	error: {
-		message: 'nope'
+		code: 'PLUGIN_ERROR',
+		hook: 'resolveId',
+		message: 'nope',
+		plugin: 'Plugin at pos 0'
 	}
 };

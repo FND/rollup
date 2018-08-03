@@ -23,6 +23,7 @@ module.exports = {
 		code: 'PLUGIN_ERROR',
 		message: `Something happened 1`,
 		plugin: 'plugin1',
+		hook: 'transform',
 		id: path.resolve(__dirname, 'main.js')
 	}
 };
